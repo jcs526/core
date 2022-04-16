@@ -2,12 +2,12 @@ package hello.core.order;
 
 public class Order {
 
-    private Long memberId;
+    private long memberId;
     private String itemName;
     private int itemPrice;
     private int discountPrice;
 
-    public Long getMemberId() {
+    public long getMemberId() {
         return memberId;
     }
 
@@ -23,7 +23,7 @@ public class Order {
         return discountPrice;
     }
 
-    public Order(Long memberId, String itemName, int itemPrice, int discountPrice) {
+    public Order(long memberId, String itemName, int itemPrice, int discountPrice) {
         this.memberId = memberId;
         this.itemName = itemName;
         this.itemPrice = itemPrice;
